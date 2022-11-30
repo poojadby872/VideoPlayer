@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>videoplayer</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="control">
+        
+     <video class=" video_player viewer" src="652333414.mp4"></video>
+
+     <div class="player_control">
+        <div class="progress">
+            <div class="progress__filled"></div>
+        </div>
+        <div class="new">
+            <button class="play_button toggle" title="Toggle Play">▶️</button> 
+
+        <input type="range" name="volume" class="slider" min="0" max="1" step="0.5" value="1">
+        <input type="range" name="play_slider" class="slider" min="0.5" max="2" step="0.1" value="1">
+        <button data-skip="-10" class="player__button">« -10s</button>
+        <button data-skip="25" class="player__button">« 25s</button>
+        </div>
+        
+        
+        
+
+
+     </div>
+
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
